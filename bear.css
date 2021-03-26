@@ -1,0 +1,28 @@
+@keyframes movebear {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -1600px 0;
+  }
+}
+
+@keyframes movebear2 {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(598%, 0);
+  }
+}
+
+.bear {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-image:url(./img/bear.png);
+  overflow: hidden;
+  animation: movebear .6s steps(4) infinite, movebear2 8s ease forwards;
+}
