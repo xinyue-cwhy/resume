@@ -62,6 +62,9 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
   }
+  div.swiper-container,.swiper-slide{
+    height: 500px !important;
+  }
 }
 /* 正文 */
 .container{
