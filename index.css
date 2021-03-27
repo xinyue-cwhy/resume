@@ -68,7 +68,8 @@ body{
 /* 动画结束 */
 .firstcomm{
   width: 100%;
-  background-color: rgb(115, 46, 134);
+  background: rgb(115, 46, 134)url(./img/download.png);
+  background-blend-mode:multiply;
   overflow: hidden;
   padding: 4px 0 11px;
 }
@@ -145,7 +146,8 @@ body{
 .secondcomm{
   position: relative;
   width: 100%;
-  background-color: rgb(50, 124, 91);
+  background: rgb(50, 124, 91) url(./img/download.png);
+  background-blend-mode:multiply;
   overflow: hidden;
 }
 .power{
@@ -309,7 +311,8 @@ section:last-child{
 /* 第三页开始 */
 .thirdcomm{
   position: relative;
-  background-color: rgb(67, 48, 129);
+  background: rgb(67, 48, 129) url(./img/download.png);
+  background-blend-mode: multiply;
   overflow: hidden;
 }
 .thirdcomm .box{
@@ -387,5 +390,50 @@ section:last-child{
 /* 第四页 */
 .forecomm{
   overflow: hidden;
-  background-color: rgb(238, 204, 142);
+  background:#9f966f url(./img/download.png);
+  background-blend-mode:multiply
+}
+
+.forecomm .intruduse{
+  margin-top: 108px;
+}
+.forecomm_msg{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 18px;
+  color: #fffFFF;
+}
+.friends{
+  padding-left: 509px;
+  margin-top: 100px;
+}
+.friends ul li{
+  float: left;
+  width: 48px;
+  height: 53px;
+  margin-left: 5px;
+}
+.friends ul li a{
+  display: inline-block;
+  width: 48px;
+  height: 53px;
+}
+.friends ul li:first-child a{
+  background: url(./img/friends.png) ;
+}
+.friends ul li:nth-child(2) a{
+  background: url(./img/friends.png);
+  background-position: -201px 1px;
+}
+.friends ul li:nth-child(3) a{
+  background: url(./img/friends.png);
+  background-position: -102px 1px;
+}
+.friends ul li:nth-child(4) a{
+  background: url(./img/friends.png);
+  background-position: -53px 1px;
+}
+.friends ul li:nth-child(5) a{
+  background: url(./img/friends.png);
+  background-position: -153px 1px;
 }
