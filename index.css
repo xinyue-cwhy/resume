@@ -1,7 +1,7 @@
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   display:none;
 }
-html{scrollbar-width: none;}
+html{scrollbar-width: none;} */
 
 @media screen and (min-width:1280px){
   .container{
